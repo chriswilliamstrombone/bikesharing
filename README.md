@@ -95,3 +95,30 @@ The Tableau story of the NYC CitiBike can be found in the following link:
 - Females have a similar distribution of trips when compared to makes, but show significantly lower number of trips than males.
 
 - Amongst subscribers, males have the highest number of trips especially on Thursdays and Fridays.
+
+
+### Bike Repairs
+
+![7.png](Resources/7.png)
+
+- This treemap represents bikes that may need repair soon.
+
+- The dark color indicates bikes that are in need of repair, and the lighter color reflects the opposite.
+
+### Gender Breakdown
+
+![8.png](Resources/8.png)
+
+- This pie chart shows us a gender breakdown.
+
+- We can see males make up the majority of the userbase.
+
+## Summary
+
+Tableau gave us a simple and effective way to generate meaningful statistics from one .csv file with only a few hours of time to manipulate said data.  The team at CitiBike can now make crucial desicions for the company based on key metrics, in an effort to drive the group forward.  We also used pandas to convert the values of the trip duration column from the original file into date and time. With just these few lines of code, and a new dataframe, we can clearly represent the length of most trip durations, the genders of the people who are renting these bikes, a comparison of user types, the most popular times of day that these bikes are being utilized, and so on.
+
+Two potential visulizations to add:
+
+1. Users based on location.  Similar to comparing starting and ending locations, it would be nice to visualize what areas see the highest use of CitiBike based on where the users live.  With this information the team could better determin what part of the city needs more bikes to help increase profits.
+
+2. Age: We have already divided the users into gender classes. Another good grouping technique would be taking the age of the users to try to isolate the key demographic of CitiBike, or attempt to branch out and appeal to other generations (older or younger).
